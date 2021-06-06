@@ -9,7 +9,7 @@ provider:
 functions:
   soveniors:
     handler: src/handler.healthCheck
-#     events:
-#       - http:
-#           method: get
-#           path: /health
+    events:
+      - http:
+          method: get
+          path: /health
